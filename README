@@ -1,0 +1,56 @@
+# IMDB Reviews Word Cloud
+
+This project generates a word cloud visualization from IMDB movie reviews.
+
+## Project Structure
+
+- `main.py`: Main script to load, clean, and visualize the IMDB reviews as a word cloud.
+- `content/IMDB-Dataset.csv`: Dataset containing IMDB reviews and their sentiments.
+- `wordcloud reviews.png`: Output image of the generated word cloud.
+- `env/`: Python virtual environment (not included in version control).
+- `.gitignore`: Ignores environment files and `.env`.
+
+## Requirements
+
+- Python 3.x
+- pandas
+- matplotlib
+- wordcloud
+
+## Setup
+
+1. (Optional) Create and activate a virtual environment:
+
+   ```sh
+   python -m venv env
+   source env/bin/activate  # On Windows: env\Scripts\activate
+   ```
+
+2. Install dependencies:
+
+   ```sh
+   pip install pandas matplotlib wordcloud
+   ```
+
+3. Ensure `content/IMDB-Dataset.csv` is present.
+
+## Usage
+
+Run the main script to generate and display the word cloud:
+
+```sh
+python main.py
+```
+
+A window will display the word cloud generated from the IMDB reviews.
+
+## How it works
+
+- Loads the IMDB dataset from [content/IMDB-Dataset.csv](content/IMDB-Dataset.csv).
+- Cleans the review text (removes punctuation, lowercases, removes stopwords).
+- Generates a word cloud image using the [`WordCloud`](https://github.com/amueller/word_cloud) library.
+- Displays the word cloud using matplotlib.
+
+## Example Output
+
+![Word Cloud Example](wordcloud%20reviews.png)
