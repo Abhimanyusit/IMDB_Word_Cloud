@@ -53,4 +53,4 @@ A window will display the word cloud generated from the IMDB reviews.
 
 ## Example Output
 
-![word cloud image](https://raw.githubusercontent.com/Abhimanyusit/IMDB_Word_Cloud/main/wordcloud%20reviews.jpg)
+![word cloud image](wordcloud_reviews.png)
