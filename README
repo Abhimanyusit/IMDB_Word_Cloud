@@ -52,3 +52,5 @@ A window will display the word cloud generated from the IMDB reviews.
 - Displays the word cloud using matplotlib.
 
 ## Example Output
+
+![word cloud image](https://github.com/Abhimanyusit/IMDB_Word_Cloud/blob/main/wordcloud%20reviews.jpg)
